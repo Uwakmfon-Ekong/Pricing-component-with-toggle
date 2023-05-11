@@ -1,0 +1,91 @@
+*{
+ font-family: 'Hanken Grotesk', sans-serif, 'Roboto';
+ font-weight: 700;
+ text-align: center;
+ color: #454858;
+ font-size: 13px;
+ 
+}
+body{
+    background-image: url(images/bg-top.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-color: #f7f7ff;
+}
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/bg-bottom.svg);
+    background-repeat:no-repeat ;
+    background-position: left bottom;
+    margin-top:50px;
+    
+}
+.annually{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #797c94;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+   
+}
+.first-wrapper{
+    width: 20%;
+    height: 20%;
+    background: #ffffff;
+    margin-top:10px;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 20px 0;
+}
+.second-wrapper{
+    width: 20%;
+    height:20%;
+    background: #9195ec;
+    border-radius: 10px;
+    padding: 30px 0;
+}
+.second-wrapper p{
+    color: white;
+}
+.second-wrapper h4{
+    color: #ffffff;
+}
+.star{
+    height:40%;
+}
+button{
+    width: 80%;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0;
+    letter-spacing: 0.1rem;
+}
+.first-btn{
+    background: #9195ec;
+    color: #ffffff;
+}
+.second-btn{
+    background: #ffffff;
+    color:#9195ec ;
+}
+hr{
+    width: 80%;
+}
+.first-btn:hover{
+    background: #ffffff;
+    color: #9195ec;
+    border: 1px solid #9195ec;
+    cursor: pointer;
+}
+.second-btn:hover{
+    color: #ffffff;
+    background: #9195ec;
+    border: 1px solid white;
+    cursor: pointer;
+}
